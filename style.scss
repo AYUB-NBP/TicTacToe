@@ -1,0 +1,31 @@
+$size:100px;
+
+* {
+    margin: 0;
+}
+
+#view {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameContainer {
+    display: grid;
+    grid-template-columns: $size $size $size;
+    gap: 2px;
+}
+
+.gameBox {
+    width: $size;
+    height: $size;
+    background-color: grey;
+
+}
+
+.gameBox:hover {
+    background-color: red;
+    transform: scale(1.1);
+    transition: all 300ms ease-in-out;
+}

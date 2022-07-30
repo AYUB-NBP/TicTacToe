@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+
+#view {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameContainer {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  gap: 2px;
+}
+
+.gameBox {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+}
+
+.gameBox:hover {
+  background-color: red;
+  transform: scale(1.1);
+  transition: all 300ms ease-in-out;
+}/*# sourceMappingURL=style.css.map */
